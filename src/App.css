@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.App-header {
+  background-image: url('/bake.jpg'); /* Ensure bake.jpg is in the public folder */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+
+.home-container {
+  /*background-image: url('./assets/bake.jpg');*/
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.bakery-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2em;
+  color: #ff6347;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;  
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;  
+
+}
+
+
+/* Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff8e8; /* Light beige color for bakery theme */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h1 {
+  font-family: 'Pacifico', cursive; /* Bakery-themed font */
+  color: #d2691e; /* Dark orange color */
+  margin-bottom: 1rem;
+}
+
+.login-form .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.login-form .form-group label {
+  display: block;
+  font-weight: bold;
+  color: #8b4513; /* Saddle brown color */
+}
+
+.login-form .form-group .form-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .btn-login {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #d2691e; /* Dark orange color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.login-form .btn-login:hover {
+  background-color: #b95b1a; /* Slightly darker orange */
+}
+
+.login-links, .terms-conditions {
+  margin-top: 1rem;
+}
+
+.login-links .link, .terms-conditions .link {
+  display: block;
+  color: #d2691e; /* Dark orange color */
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.login-links .link:hover, .terms-conditions .link:hover {
+  text-decoration: underline;
+}
+
+
+/* Products.css */
+
+.products-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff8e8; /* Light beige color for bakery theme */
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.product-card img.product-image {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  font-family: 'Pacifico', cursive; /* Bakery-themed font */
+  color: #d2691e; /* Dark orange color */
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  color: #8b4513; /* Saddle brown color */
+  font-size: 1.2rem;
+  font-weight: bold;
+}

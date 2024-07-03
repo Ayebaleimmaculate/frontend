@@ -1,0 +1,36 @@
+
+.no-page-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff8e8; 
+    border: 2px solid #d2691e; /* Dark orange border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .no-page-container h1 {
+    font-family: 'Pacifico', cursive; /* Bakery-themed font */
+    color: #d2691e; /* Dark orange color */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .no-page-container p {
+    font-family: 'Open Sans', sans-serif; /* Clean and readable font */
+    color: #555; /* Medium dark text color */
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .no-page-container a {
+    color: #d2691e; /* Dark orange color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .no-page-container a:hover {
+    color: #b75913; /* Darker shade of orange on hover */
+  }
+  

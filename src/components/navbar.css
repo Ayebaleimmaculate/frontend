@@ -1,0 +1,79 @@
+.navbar {
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   /* Faint background color for bakery theme */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #f9f7f6;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500px;
+  color: #0d0d0d; /* Dull bakery color */
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '|';
+  position: absolute;
+  right: -10px;
+  color: #8b4513; /* Same dull bakery color */
+}
+
+.nav-link:hover {
+  color: #a0522d; /* Slightly lighter shade of the dull bakery color */
+}
+
+.nav-link.active {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 0 10px;
+  }
+
+  .nav-item {
+      margin-left: 10px;
+  }
+
+  .navbar-brand {
+      font-size: 1.5rem;
+  }
+
+  .nav-link {
+      font-size: 1rem;
+  }
+}
